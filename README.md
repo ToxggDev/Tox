@@ -1,72 +1,54 @@
-# Tox - Crypto Contract Address Sharer
+# Tox.gg 
 
-Tox is a Chrome extension that makes it easy to share crypto contract addresses with your team or community. It automatically detects contract addresses from your clipboard or web pages and shares them through Discord or your private group.
+Quickly share CAs within your FNF/DAO via in-browser notifications. 
+
+![1500x500 (23)](https://github.com/user-attachments/assets/35b0579b-c6d6-4eb4-a734-ec0f4fdc4b9d)
 
 ## Features
 
-- 🔍 Automatic contract address detection (Ethereum, TRON, Bitcoin)
-- 📋 Clipboard monitoring with toggle
-- 🎯 One-click sharing from supported websites
-- 💬 Discord webhook integration
-- 👥 Private group sharing
-- 📊 Activity history
-- 🎨 Clean, modern UI
+- Seamless integration with Tox.gg platform
+- Enhanced gaming experience
+- Real-time updates and notifications
+- User-friendly interface
+- Secure authentication
 
 ## Installation
 
-1. Clone this repository
-2. Open Chrome and go to `chrome://extensions/`
-3. Enable "Developer mode" in the top right
-4. Click "Load unpacked" and select the extension directory
+1. Download the latest release zip file from [Tox.gg](https://tox.gg/)
+2. Extract the zip file to a location of your choice
+3. Open your browser and navigate to the extensions page:
+   - Chrome: `chrome://extensions/`
+   - Edge: `edge://extensions/`
+   - Firefox: `about:addons`
+4. Enable "Developer mode" in the top right corner
+5. Click "Load unpacked" and select the extracted folder
 
 ## Configuration
 
-1. Click the Tox icon in your Chrome toolbar
-2. Click the settings button
-3. Configure your:
-   - Discord webhook URL
-   - Group settings
-   - User preferences
+1. Click on the Tox.gg extension icon in your browser toolbar
+2. Follow the authentication process to link your account
+3. Customize your settings in the options page
 
-## Usage
+## Documentation
 
-### Automatic Clipboard Detection
-1. Copy any contract address to your clipboard
-2. Tox will automatically detect and share it
+For detailed documentation, please visit our [Documentation](https://tox.gg/docs) page.
 
-### Manual Sharing
-1. Visit a supported website (e.g., pump.fun, dexscreener.com)
-2. Click the "Share CA" button that appears
-3. The contract address will be shared with your configured channels
+## Links
 
-## Supported Websites
-- pump.fun
-- dexscreener.com
-- (More coming soon)
+- [Website](https://tox.gg/)
+- [Twitter](https://x.com/toxdotgg)
+- [Documentation](https://tox.gg/docs)
 
-## Development
+## Support
 
-### Project Structure
-```
-tox/
-├── manifest.json
-├── background.js
-├── content.js
-├── popup.html
-├── popup.js
-├── styles/
-│   └── popup.css
-└── icons/
-    ├── icon16.png
-    ├── icon48.png
-    └── icon128.png
-```
-
-### Building
-No build step required. The extension can be loaded directly into Chrome.
-
-## Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
+If you encounter any issues or have questions, please:
+1. Check our [documentation](https://tox.gg/docs)
+2. Reach out to us on [Twitter](https://x.com/toxdotgg)
 
 ## License
-MIT 
+
+This project is proprietary software. All rights reserved.
+
+## Privacy
+
+Your privacy is important to us. We only collect necessary data to provide our services. For more information, please refer to our privacy policy on the [website](https://tox.gg/). 
